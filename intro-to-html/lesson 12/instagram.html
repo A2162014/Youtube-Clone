@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instagram - Lesson 12 - Challenge 12g</title>
+    <style>
+      p {
+        font-family: Arial;
+        font-size: 15px;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 100px;
+      }
+      button {
+        background-color: rgb(65, 147, 241);
+        color: white;
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        opacity: 0.75;
+      }
+      button:active {
+        opacity: 0.5;
+      }
+      .user-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10px;
+      }
+      .user-pic-part {
+        margin-right: 10px;
+      }
+      .user-details-part {
+        display: flex;
+        flex-direction: column;
+        width: 200px;        
+      }
+      .username {
+        font-weight: bold;
+      }
+      .bio, .popular {
+        color: rgb(153, 152, 153);
+      }
+      .popular {
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-card">
+      <div class="user-card">
+        <div class="user-pic-part">
+          <img src="https://w0.peakpx.com/wallpaper/694/713/HD-wallpaper-mugen-fanart-morrow-samurai-anime-pixiv-samurai-champloo-vector.jpg" alt="">
+        </div>
+        <div class="user-details-part">
+          <p class="username">Mugen</p>
+          <p class="bio">the extrovert</p>
+          <p class="popular">Popular</p>
+        </div>
+        <div class="follow-button-part">
+          <button>Follow</button>
+        </div>
+      </div>
+      <div class="user-card">
+        <div class="user-pic-part">
+          <img src="https://i.quotev.com/glamb35vaaaa.jpg" alt="">
+        </div>
+        <div class="user-details-part">
+          <p class="username">Jin</p>
+          <p class="bio">the introvert</p>
+          <p class="popular">Popular</p>
+        </div>
+        <div class="follow-button-part">
+          <button>Follow</button>
+        </div>
+      </div>
+      <div class="user-card">
+        <div class="user-pic-part">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2rKTB93jJtloVCYfF5kyMnGCimfWJmq0zyrjS7SHRAyNfK-JHZm-_sTpodGpIAgwuZqc&usqp=CAU" alt="">
+        </div>
+        <div class="user-details-part">
+          <p class="username">Fuu Kasami</p>
+          <p class="bio">the girl</p>
+          <p class="popular">Popular</p>
+        </div>
+        <div class="follow-button-part">
+          <button>Follow</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
